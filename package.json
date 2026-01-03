@@ -1,0 +1,17 @@
+{
+  "name": "mute-channel-bot",
+  "version": "1.0.0",
+  "description": "Auto server-mute users when they join a target voice channel (and auto-unmute when they leave).",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  }
+}
